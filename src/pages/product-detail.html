@@ -16,7 +16,7 @@
 <body class="min-h-screen flex flex-col">
     <header class="fixed top-0 left-0 w-full z-20 bg-common">
         <div class="flex items-center container h-[93px] justify-between">
-            <a href="../../index.html" class="flex items-center gap-2">
+            <a href="../../index.html" class="detail-list-item">
                 <img src="../imgs/logo.png" alt="" class="w-8">
                 <h2 class="title-logo">Ecobazar</h2>
             </a>
@@ -97,7 +97,7 @@
                             <path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662" />
                         </svg>
                     </a>
-                    <div class="flex items-center gap-2">
+                    <div class="detail-list-item">
                         <img src="../imgs/PhoneCall 1.svg" alt="phone" class="w-6 xl:w-7">
                         <p class="hidden md:block text-[14px] xl:text-[16px]">(219) 555-0114</p>
                     </div>
@@ -177,8 +177,8 @@
             </div>
             <div class="space-y-6 ">
                 <div class="border-b border-grays-100 pb-5">
-                    <div class="flex items-center gap-2">
-                        <h1 class="text-[28px] xl:text-[36px] font-semibold">Chinese Cabbage</h1>
+                    <div class="detail-list-item">
+                        <h1 class="detail-title">Chinese Cabbage</h1>
                         <p class="bg-[rgb(32_181_38/0.1)] py-1 px-2 rounded text-primary text-[14px]">In Stock</p>
                     </div>
                     <div class="flex items-center gap-6 mt-3">
@@ -191,10 +191,10 @@
                             <span class="text-grays-500 text-[14px]">2,51,594</span>
                         </p>
                     </div>
-                    <div class="flex items-center gap-3 mt-5">
+                    <div class="detail-price">
                         <p class="space-x-1">
-                            <span class="text-[20px] line-through text-grays-500">$48.00</span>
-                            <span class="text-[24px] text-secondary">$17.28</span>
+                            <span class="detail-price-old">$48.00</span>
+                            <span class="detail-price-new">$17.28</span>
                         </p>
                         <p class="py-[3px] px-[10px] rounded-full text-sticks-red bg-[rgb(234_75_72/0.1)] text-[14px]">
                             64% Off</p>
@@ -202,7 +202,7 @@
                 </div>
                 <div class="border-b border-grays-100 pb-5">
                     <div class="flex items-center justify-between flex-wrap xl:flex-nowrap">
-                        <div class="flex items-center gap-2">
+                        <div class="detail-list-item">
                             <h3>Brand:</h3>
                             <div class="product-detail-img-brand border">
                                 <img src="../imgs/apple (1).png" alt="">
@@ -254,7 +254,7 @@
                             </ul>
                         </div>
                     </div>
-                    <p class="mt-4 text-[14px] text-grays-500">Class aptent taciti sociosqu ad litora torquent per
+                    <p class="mt-4 detail-description space-y-0">Class aptent taciti sociosqu ad litora torquent per
                         conubia nostra, per inceptos
                         himenaeos. Nulla
                         nibh diam, blandit vel consequat nec, ultrices et ipsum. Nulla varius magna a consequat
@@ -315,15 +315,14 @@
         </section>
         <section class="mt-5 xl:mt-0">
             <nav>
-                <ul
-                    class="flex gap-10 md:gap-6 justify-around md:justify-center border-b h-[56px] leading-[56px] text-grays-500">
-                    <li class="border-b-2 border-primary"><button>Descriptions</button></li>
+                <ul class="detail-tabs">
+                    <li class="detail-tab-active"><button>Descriptions</button></li>
                     <li><button>Information</button></li>
                     <li><button>Feedback</button></li>
                 </ul>
             </nav>
             <div class="container mt-8 flex flex-wrap xl:flex-nowrap gap-[26px] md:gap-[56px] xl:gap-[136px]">
-                <article class="text-[14px] text-grays-500 space-y-5">
+                <article class="detail-description">
                     <p class="">Sed commodo aliquam dui ac porta. Fusce ipsum felis, imperdiet
                         at posuere ac, viverra at mauris.
                         Maecenas tincidunt ligula a sem vestibulum pharetra. Maecenas auctor tortor lacus, nec laoreet
@@ -342,7 +341,7 @@
                         tincidunt, turpis mi viverra velit, pellentesque tristique neque mi eget nulla. Proin luctus
                         elementum neque et pharetra. </p>
                     <ul class="space-y-[14px]">
-                        <li class="flex items-center gap-2">
+                        <li class="detail-list-item">
                             <div class="size-5 bg-primary text-common flex items-center justify-center rounded-full">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="size-4">
@@ -352,7 +351,7 @@
                             </div>
                             <p>100 g of fresh leaves provides.</p>
                         </li>
-                        <li class="flex items-center gap-2">
+                        <li class="detail-list-item">
                             <div class="size-5 bg-primary text-common flex items-center justify-center rounded-full">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="size-4">
@@ -362,7 +361,7 @@
                             </div>
                             <p>Aliquam ac est at augue volutpat elementum.</p>
                         </li>
-                        <li class="flex items-center gap-2">
+                        <li class="detail-list-item">
                             <div class="size-5 bg-primary text-common flex items-center justify-center rounded-full">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="size-4">
@@ -372,7 +371,7 @@
                             </div>
                             <p>Quisque nec enim eget sapien molestie.</p>
                         </li>
-                        <li class="flex items-center gap-2">
+                        <li class="detail-list-item">
                             <div class="size-5 bg-primary text-common flex items-center justify-center rounded-full">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="size-4">
@@ -387,7 +386,7 @@
                         lobortis
                         iaculis at ut massa. </p>
                 </article>
-                <aside class="flex-1 text-[14px] text-grays-500">
+                <aside class="flex-1 detail-description space-y-0">
                     <div class="min-w-full md:min-w-[536px] aspect-[536/300]">
                         <img src="../imgs/shpper.png" alt="">
                     </div>
@@ -598,13 +597,13 @@
         <div class=" text-common  bg-blacks-900">
             <div class="container flex flex-wrap gap-10 py-[60px] xl:gap-20 2xl:gap-[112px]">
                 <div class="max-w-[336px] space-y-4">
-                    <a href="/" class="flex items-center gap-2">
+                    <a href="/" class="detail-list-item">
                         <div class="size-8">
                             <img src="../imgs/logo.png" alt="logo">
                         </div>
                         <h2 class="title-logo">Ecobazar</h2>
                     </a>
-                    <p class="text-[14px] text-grays-500">Morbi cursus porttitor enim lobortis molestie. Duis gravida
+                    <p class="detail-description space-y-0">Morbi cursus porttitor enim lobortis molestie. Duis gravida
                         turpis
                         dui, eget bibendum magna congue
                         nec.</p>
@@ -687,7 +686,7 @@
             </div>
             <div
                 class="container justify-between flex flex-wrap gap-4 items-center border py-[29.5px] border-grays-500 border-b-transparent border-l-transparent border-r-transparent ">
-                <p class="text-[14px] text-grays-500">Ecobazar eCommerce © 2021. All Rights Reserved</p>
+                <p class="detail-description space-y-0">Ecobazar eCommerce © 2021. All Rights Reserved</p>
                 <ul class="flex items-center gap-8">
                     <li class="w-[45px]">
                         <img src="../imgs/Method=ApplePay.png" alt="ApplePay">
