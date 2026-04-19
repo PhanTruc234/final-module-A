@@ -67,7 +67,7 @@
     }
 
     .btn-add-to-card {
-        @apply min-w-[230px] md:min-w-[250px] xl:min-w-[300px] 2xl:min-w-[371px] flex items-center py-[14px] px-8 justify-center gap-3 rounded-full text-common hover:opacity-70 duration-500
+        @apply min-w-[230px] md:min-w-[400px] xl:min-w-[300px] 2xl:min-w-[371px] flex items-center py-[14px] px-8 justify-center gap-3 rounded-full text-common hover:opacity-70 duration-500
     }
 
     /* SECTION-1 : END */
@@ -118,7 +118,7 @@
     }
 
     .product-info {
-        @apply flex items-center justify-between p-3
+        @apply flex items-center justify-between p-1 md:p-3
     }
 
     .product-text {
@@ -126,11 +126,11 @@
     }
 
     .product-price-new {
-        @apply font-medium leading-[150%] mb-[6px]
+        @apply font-medium leading-[150%] mb-[6px] text-[14px] md:text-[16px]
     }
 
     .product-price-old {
-        @apply font-normal line-through text-grays-400
+        @apply font-normal line-through text-grays-400 text-[14px] md:text-[16px]
     }
 
     .product-bag {
