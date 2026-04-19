@@ -94,7 +94,7 @@
     /* SECTION-3 : END */
     /* SECTION-4 : BEGIN */
     .articel-product {
-        @apply col-span-2 md:row-start-1 md:col-start-1 md:col-end-13 xl:col-span-2 xl:row-span-2 relative transition-all duration-500 hover:shadow-category hover:border-primary border-2 border-grays-100 md:border-l-transparent md:border-t-transparent
+        @apply col-span-2 md:row-start-1 md:col-start-1 md:col-end-13 xl:col-span-2 xl:row-span-2 relative transition-all duration-500 hover:shadow-category hover:border-primary border-2 border-grays-100
     }
 
     .product-list {
@@ -110,11 +110,11 @@
     }
 
     .product-img {
-        @apply aspect-[254/230] overflow-hidden md:max-w-[230px] xl:max-w-[213px] 2xl:max-w-[249px]
+        @apply aspect-[254/230] overflow-hidden md:max-w-[233px] xl:max-w-[214px] 2xl:max-w-[250px]
     }
 
     .product {
-        @apply pt-[5px] pl-[5px] pr-[5px] border-2 border-grays-100 border-t-transparent md:border-l-transparent transition-all duration-500 hover:border-primary hover:shadow-category
+        @apply pt-[5px] pl-[5px] pr-[5px] border-2 border-grays-100 border-t-transparent transition-all duration-500 hover:border-primary hover:shadow-category xl:border-t-grays-100
     }
 
     .product-info {
